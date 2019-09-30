@@ -9,6 +9,7 @@ import java.util.concurrent.TimeUnit;
  * 序列化中，
  * 如何保证date显示的是实时时间
  * 序列化和反序列化只是将数据存和取，没有调用任何方法，所以要么为null，要么跟序列化之前的时间一样
+ * 从一个文件反序列化恢复一个对象时，需要当前JVM能找到对应的.class文件
  */
 public class TestTransient implements Serializable{
 

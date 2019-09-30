@@ -9,6 +9,11 @@ public class MethodReload {
     }
 
 
+    public static void k(String a){
+        System.out.println(a);
+    }
+
+
 //    static void methodReload(short a){
 //        System.out.println("参数为short");
 //    }
