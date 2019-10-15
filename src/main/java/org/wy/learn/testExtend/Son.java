@@ -8,6 +8,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 public class Son extends Father {
 
+    int k = 3;
     public static void main(String[] args) {
         Father father = new Son();
 
